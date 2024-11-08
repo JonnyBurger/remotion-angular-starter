@@ -1,7 +1,7 @@
 <div class="p-8 space-y-8">
   <h1 class="text-2xl font-semibold">Remotion within Angular</h1>
-  <div class="flex space-x-5">
-    <div class="border rounded">
+  <div class="flex flex-col sm:flex-row gap-5">
+    <div class="flex-1 border rounded">
       <app-player-view #player [data]="data" (onPaused)="playerPaused()" />
     </div>
     <form [formGroup]="form" class="border rounded p-5 space-y-4">

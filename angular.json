@@ -89,6 +89,9 @@
             "scripts": []
           }
         }
+      },
+      "cli": {
+        "analytics": false
       }
     }
   }
